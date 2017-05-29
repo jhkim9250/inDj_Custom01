@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Text -->
+    <color name="high_menu_text_color">#ffffff</color>
+    <color name="msg_text_color">#70ffffff</color>
+    <color name="msg_text_color2">#ffffffff</color>
+    <color name="msg_text_color3">#b4ffffff</color>
+    <color name="msg_text_color4">#000000</color>
+    <color name="button_text_color">#ffffff</color>
+    <color name="edittext_cursor_color">#ff3366</color>
+    <color name="edittext_hint_color">#9c9c9c</color>
+    <color name="edittext_text_color">#70000000</color>
+    <color name="social_text_color">#464646</color>
+    <color name="social_text2_color">#9c9c9c</color>
+
+    <color name="a">#00ffffff</color>
+
+    <color name="home_item_bd">#78212121</color>
+    <color name="cast_item_share_back">#000000</color>
+    <color name="radio_item_bd">#70000000</color>
+    <color name="background_tent">#50000000</color>
+
+    <color name="musicplay_volume_seekbar_thumb_color">#ffffff</color>
+    <color name="musicplay_volume_seekbar_progress_color">#ffffff</color>
+    <color name="musicplay_volume_seekbar_progress_background_color">#000000</color>
+    <color name="musicplay_tent">#30000000</color>
+    <color name="musicplay_item_tent">#60000000</color>
+    <color name="musicplay_item_none_tent">#00ffffff</color>
+    <color name="music_background_tent">#50000000</color>
+    <color name="music_buttonbar_tent">#82ffffff</color>
+
+    <color name="musicList_search_ET_text_color">#ffffff</color>
+
+    <color name="social_category_color">#c98f92</color>
+    <color name="social_category_bottom_on_color">#ea5c64</color>
+
+</resources>

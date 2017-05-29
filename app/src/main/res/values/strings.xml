@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">inDJ</string>
+
+    <string name="device_height_weight">736</string>
+    <string name="main_height_weight">684</string>
+    <string name="device_width_weight">414</string>
+    <string name="device_width_half_weight">207</string>
+
+    <!-- Intro -->
+    <string name="intro_welcom">Welcome</string>
+    <string name="intro_text">우주에 그린 노래 하나, inDJ에 오신 걸 환영 합니다.</string>
+
+    <!-- Join -->
+    <string name="join_title">회원가입</string>
+    <string name="join_mail">메일주소를 입력해주세요.</string>
+    <string name="join_password">비밀번호를 입력해주세요.</string>
+    <string name="join_gender_man">남</string>
+    <string name="join_gender_woman">여</string>
+    <string name="join_age">나이</string>
+    <string name="join_signup">회원가입</string>
+    <string name="join_login">로그인</string>
+    <string name="join_msg1">성별 연령에 따라 맞춤 음악을 제공합니다.</string>
+    <string name="join_msg2">inDJ 계정이 이미 있다면?</string>
+
+    <!-- fackbook 로그인 -->
+    <string name="facebook_app_id">756444411224580</string>
+    <string name="fb_login_protocol_scheme">fb756444411224580</string>
+
+    <!-- KakaoTalk 로그인 -->
+    <string name="kakao_app_key">87ddb93b2fa91feb992a0b62c89d3208</string>
+
+    <!-- Help -->
+    <string name="help_title">HELP</string>
+    <string name="help_mail">이메일 주소를 입력하세요</string>
+    <string name="help_age">나이</string>
+    <string name="help_msg1">가입하신 이메일 주소를 입력해주세요.\n 비밀번호를 변경할 수 있는 링크를 받을 수 있습니다.</string>
+    <string name="help_msg2">정확한 이메일 주소를 입력해주세요.</string>
+    <string name="help_msg3">발송 완료되었습니다. 메일을 확인해주세요.</string>
+
+    <!-- Home -->
+    <string name="home_title">HOME</string>
+    <string name="home_category1">지금 상황에 맞는 PLAY and 방송</string>
+
+
+    <!-- Cast_Item -->
+    <string name="cast_title">CAST</string>
+
+    <string name="cast_item_text_share">SHARE</string>
+    <string name="cast_item_text_cancel">CANCEL</string>
+    <string name="cast_item_text_more1">DJ 알아보기</string>
+    <string name="cast_item_text_more2">방송 플레이리스트</string>
+
+    <!-- Music List -->
+    <string name="musiclist_text_title">플레이리스트</string>
+    <string name="musiclist_text_edit">편집</string>
+    <string name="musiclist_text_nowplay">NOW PLAYING</string>
+    <string name="musiclist_text_songInPlaylist">현재 플레이리스트에 담겨있는 곡</string>
+    <string name="musiclist_text_search_hint">재생목록 검색</string>
+
+    <!-- Music Channel Info -->
+    <string name="musicchannelInfo_title">채널 정보</string>
+    <string name="musicchannelInfo_like">좋아요</string>
+    <string name="musicchannelInfo_follow">팔로우</string>
+    <string name="musicchannelInfo_list">현재 채널에 담겨있는 곡</string>
+
+    <!-- Music List Edit -->
+    <string name="musicListEdit_select_text">곡 선택</string>
+
+    <!-- Music Info -->
+    <string name="musicInfo_title">곡 정보</string>
+    <string name="musicInfo_like">\s 좋아요</string>
+    <string name="musicInfo_more">더보기</string>
+    <string name="musicInfo_comment">\s 댓글</string>
+    <string name="musicInfo_musicVideo">뮤직비디오</string>
+    <string name="musicInfo_radio">추천라디오</string>
+    <string name="musicInfo_msg1">이 곡을 좋아요 한 사람</string>
+    <string name="musicInfo_msg2">함께 들으면 좋은 곡</string>
+
+    <!-- Search -->
+    <string name="search_title">SEARCH</string>
+    <string name="search_text_ET_hint">검색어를 입력해주세요</string>
+    <string name="search_text1">원하는 음악, 앨범, 아티스트를\n 검색하세요!</string>
+
+    <!-- Recommend Radio -->
+    <string name="recommend_radio_title">추천라디오</string>
+    <string name="recommend_radio_text1">이 곡이 들어있는 추천라디오</string>
+
+    <!-- Radio -->
+    <string name="radio_title">RADIO</string>
+
+    <!-- Social-->
+    <string name="social_title">SOCIAL</string>
+    <string name="social_text1">팔로워</string>
+    <string name="social_text2">팔로잉</string>
+
+
+    <!-- Color -->
+    <string name="cast_category_off_color">#00ffffff</string>
+    <string name="cast_category_on_color">#ff3366</string>
+    <string name="social_category_on_color">#FFFF000D</string>
+    <string name="musicLyrics_now_text_color">#ffffffff</string>
+
+
+    <!-- function -->
+    <string name="moveToLogin">moveToLogin</string>
+    <string name="moveToJoin">moveToJoin</string>
+    <string name="moveToHelp">moveToHelp</string>
+
+    <string name="goBack">goBack</string>
+
+    <string name="fnc_intro_onClick">viewOnClick</string>
+    <string name="fnc_login_signin">signIn</string>
+    <string name="fnc_login_signinFacebook">signInFacebook</string>
+    <string name="fnc_login_signinKakao">signInKakao</string>
+    <string name="fnc_join_signup">signUp</string>
+    <string name="fnc_help_send">signUp</string>
+    <string name="fnc_main_menu">menuClick</string>
+    <string name="fnc_cast_category">castCategoryClick</string>
+    <string name="fnc_cast_button_plus">cast_button_plus</string>
+    <string name="fnc_musicPlay_ReduceScreen">musicPlay_Move</string>
+    <string name="fnc_musicPlay_Radio">musicPlay_Move</string>
+    <string name="fnc_musicPlay_Menu">musicPlay_Move</string>
+    <string name="fnc_musicPlay_More">musicPlay_Move</string>
+    <string name="fnc_musicPlay_Unlike">musicPlay_ButtonEvent</string>
+    <string name="fnc_musicPlay_Like">musicPlay_ButtonEvent</string>
+    <string name="fnc_musicPlay_Pre">musicPlay_ButtonEvent</string>
+    <string name="fnc_musicPlay_Next">musicPlay_ButtonEvent</string>
+    <string name="fnc_musicPlay_Seq">musicPlay_ButtonEvent</string>
+    <string name="fnc_musicPlay_Rep">musicPlay_ButtonEvent</string>
+    <string name="fnc_musicPlay_PlayNStop">musicPlay_ButtonEvent</string>
+    <string name="fnc_musicPlay_volume">musicPlay_ButtonEvent</string>
+
+    <string name="fnc_musicList_OnClick">viewOnClick</string>
+    <string name="fnc_musicList_Search_OnClick">viewOnClick</string>
+    <string name="fnc_musicListEdit_OnClick">viewOnClick</string>
+
+    <string name="fnc_social_category_change">socialCategoryClick</string>
+
+</resources>

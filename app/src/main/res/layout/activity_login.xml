@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_img"
+    android:visibility="visible"
+    tools:context="designzoos.indjcustom.Activity.Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_dark"
+        android:orientation="vertical"
+        android:weightSum="736">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="92" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="138.3"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/indj_logo" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="154.7" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="55.85"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="413.7">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="217"
+                android:orientation="vertical"
+                android:weightSum="34">
+
+                <EditText
+                    android:id="@+id/txtEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center"
+                    android:hint="@string/join_mail"
+                    android:textColor="#ffffff"
+                    android:textSize="12.7dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="55.85"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="413.7">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="217"
+                android:gravity="bottom|center"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/txtPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center"
+                    android:hint="비밀번호를 입력하세요"
+                    android:textColor="#ffffff"
+                    android:textSize="12.7dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="42"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="413.7">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="217"
+                android:scaleType="center"
+                app:srcCompat="@mipmap/ic_launcher">
+
+                <TextView
+                    android:id="@+id/btnLogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_login_3x"
+                    android:gravity="center"
+                    android:onClick="viewOnclick"
+                    android:text="로그인"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="14"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="23"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="413.7">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="217"
+                android:gravity="center"
+                android:scaleType="center"
+                android:weightSum="141"
+                app:srcCompat="@mipmap/ic_launcher">
+
+                <TextView
+                    android:id="@+id/txtSignup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="49.7"
+                    android:gravity="center"
+                    android:onClick="viewOnclick"
+                    android:text="회원가입" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff" />
+
+                <TextView
+                    android:id="@+id/txtLook"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="49.7"
+                    android:gravity="center"
+                    android:onClick="viewOnclick"
+                    android:text="계정찾기" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="57.3"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="47"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <ImageView
+                android:id="@+id/btnFacebook"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="viewOnclick"
+                app:srcCompat="@drawable/button_facebook_3x" />
+
+            <ImageView
+                android:id="@+id/btnKakao"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="viewOnclick"
+                app:srcCompat="@drawable/button_kakao_3x" />
+
+            <ImageView
+                android:id="@+id/btnGmail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="viewOnclick"
+                app:srcCompat="@drawable/button_gmail_3x" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="60.7"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="로그인하는 것은 이용약관에 동의한다는 것입니다."
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/txtPolicy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="viewOnclick"
+                android:paddingLeft="8dp"
+                android:text="이용약관"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

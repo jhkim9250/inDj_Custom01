@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "322472774508",
+    "project_id": "firebase-indjcustom01"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322472774508:android:637bae43d44cf78e",
+        "android_client_info": {
+          "package_name": "designzoos.indj_custom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "322472774508-il2tn19ut94d4efogtkbciha5i78uqjc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "designzoos.indj_custom",
+            "certificate_hash": "2b6549a71675fd7cb3715037b107b6de0917a731"
+          }
+        },
+        {
+          "client_id": "322472774508-j5uv0l0nsd4pbor5g7tg9qic0hllcoo1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb0B7YJAODGHKQhj9UN6z9zRSBehGIoNM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
